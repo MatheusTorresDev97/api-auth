@@ -8,6 +8,8 @@ import { USER_ROLE } from "../../utils/roles.js";
 
 export function Home() {
   const { user } = useAuth();
+
+  
   return (
     <Container>
       <Header />
